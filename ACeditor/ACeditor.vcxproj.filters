@@ -19,6 +19,9 @@
     <Filter Include="ALibrerias\ACadena">
       <UniqueIdentifier>{cdbf9207-2d1f-48ec-93f7-adc0e2a42d39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ALibrerias\Generico">
+      <UniqueIdentifier>{0a84885f-0bcb-4729-8562-9e5c6728d178}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="inicio.cpp">
@@ -31,6 +34,9 @@
   <ItemGroup>
     <ClInclude Include="ACadena.h">
       <Filter>ALibrerias\ACadena</Filter>
+    </ClInclude>
+    <ClInclude Include="ALista.h">
+      <Filter>ALibrerias\Generico</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
