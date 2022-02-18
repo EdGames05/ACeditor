@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv) {
 
-	ACadena str = "Algo de la cadena \n";
+	ACadena str = "Algo de la cádena \n";
 	printf(str.c_str());
 	return 0;
 }
