@@ -1,4 +1,5 @@
 #include "ACadena.h"
+#include "ALista.h"
 #include <stdio.h>
 #include <Windows.h>
 #include <locale.h>
@@ -8,8 +9,10 @@ int main(int argc, char** argv) {
 	setlocale(LC_ALL, "es_ES");
 
 	ACadena str = "Algo de la cádena \n";
-	printf("%s \n", str[1].c_str());
-	str.obtenerTamano();
+	ALista<ACadena> aCadenaLista{};
+	//aCadenaLista->insertar_inicio("Algo");
+	aCadenaLista.insertar_inicio(str);
+	aCadenaLista.insertar_inicio("Otra");
 	system("pause");
 	return 0;
 }
